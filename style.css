@@ -8,10 +8,14 @@ body {
 
 .form-body {
     background-color: darkblue;
-    width: 500px;
-   
+    position: relative;
+    left: 25%;
 }
-.input{
+
+.input {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    position: relative;
+    margin-top: 6px;
 }
