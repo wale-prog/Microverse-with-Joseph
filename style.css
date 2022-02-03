@@ -1,5 +1,6 @@
 body {
     background-color: cadetblue;
+    color : white
 }
 
 .center {
@@ -9,7 +10,11 @@ body {
 .form-body {
     background-color: darkblue;
     position: relative;
-    left: 25%;
+    padding-top: 40px;
+    width: 50%;
+    left: 30%;
+    border-radius: 6px;
+   
 }
 
 .input {
@@ -18,4 +23,22 @@ body {
     width: 500px;
     position: relative;
     margin-top: 6px;
+    left: 15%; 
+    align-content: space-between;
+}
+.text-input{
+    height: 32px;
+    border-radius: 6px;
+}
+.padding{
+    padding: 16px 2px 16px 0;
+}
+.btn{
+    background-color: yellowgreen;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width:90%;
+    margin-left: 32px;
+    color: white;
+    height: 30px;
 }
